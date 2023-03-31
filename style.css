@@ -1,0 +1,88 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 100px;
+    background-color: #e6e6e6;
+}
+
+span {
+    padding: 40px;
+    width: 33%;
+}
+
+h1 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    width: 45px;
+}
+
+p {
+    background-color: #ffffff;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 4px 0px 8px 0px;
+}
+
+p {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 1px 4px black ;
+    
+}
+
+span .center {
+    float: right;
+}
+
+#clickMe {
+    background-color: #e6e6e6;
+    display: inline-block;
+    padding: 10px;
+    font-family: Helvetica;
+    border-radius: 3px;
+    width: 130px;
+    border: 1px solid #1f1e1e;
+}
+
+#clickMe:hover {
+    cursor: pointer;
+}
+
+
+
+
+.darkMode{
+    background-color: rgb(21, 27, 30);
+
+
+}
+.darkMode h1 {
+    color: white;
+    border-bottom: 1px solid white;
+}
+.darkMode p{
+    color: white;
+    background-color: #1f1e1e;
+    box-shadow: 1px 1px 5px white ;
+    border: 1px solid #1f1e1e;
+    border-radius: 4px;
+}
+.darkMode #clickMe {
+    background-color: rgb(21, 27, 30);
+    display: inline-block;
+    padding: 10px;
+    font-family: Helvetica;
+    border-radius: 3px;
+    width: 130px;
+    border: 1px solid white;
+    color: white;
+}
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
